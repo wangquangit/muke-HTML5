@@ -1,0 +1,95 @@
+/* 在此完成CSS样式设置*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+aside {
+	margin-top: 50px;
+	margin-left: 6%;
+	float: left;
+	width: 30%
+}
+
+aside > dl {
+	position: relative;
+	padding-bottom: 70px;
+	overflow: hidden;
+}
+
+aside > dl > .dd1 > span {
+	position: absolute;
+	margin-top: 11px;
+	margin-left: -31px;
+	color: #fff;
+	font-size: 20px;
+	float: left;
+}
+
+aside > dl > .dt1 {
+	position: absolute;
+	left: 60px;
+	overflow: hidden;
+}
+
+aside > dl > .dd2 {
+	position: absolute;
+	left: 60px;
+	top: 30px;
+	font-size: 15px;
+}
+
+aside > dl > dt {
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+article {
+	margin-top: 50px;
+	margin-left: 6%;
+	float: left;
+	width: 50%;
+}
+
+article > img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+article > p {
+	margin-bottom: 20px;
+}
+
+samp {
+	font-size: 30px;
+	color: #7c7c7c;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

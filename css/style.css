@@ -1,0 +1,84 @@
+*{font-family: Arial;/*字体类型*/font-size: 14px;/*字体大小*/margin: 0;/*外边距*/padding: 0;/*内边距*/border: none;/*边框*/}
+a {text-decoration: none;/*超链接下划线*/}
+
+ul {list-style: none;/*列表项前的点*/}
+
+header {height: 80px;background: #000;}
+
+header > .container {width: 1200px;margin: 0 auto;/*居中*/}
+
+header > .container > a {display: block;/*块级元素,独占一行*/float: left;margin: 5px 25px;}
+
+header > .container > nav {float: right;}
+
+header > .container > nav > a {font-size: 24px;height: 73px;width: 110px;display: block;/*转换成块级元素*/float: left;line-height: 73px;/*行高73居中*/text-align: center;color: #fff}
+
+header > .container > nav > a.Home { background: #433b90; }
+header > .container > nav > a.Course { background: #017fcb; }
+header > .container > nav > a.Actual { background: #78b917; }
+header > .container > nav > a.Plan { background: #feb800; }
+header > .container > nav > a.FAQ { background: #f27c01; }
+header > .container > nav > a.Notes { background: #d40112 }
+header > .container > nav > a:hover,
+header > .container > nav > a.active {padding-bottom: 7px; }
+
+.banner {background: #eaeaea;overflow: hidden;}
+
+.banner > ul {position: relative;/*相对定位*/left: 50px;width: 1300px;height: 520px;/*溢出部分隐藏*/padding-top: 10px;}
+
+.banner > ul > li {position: absolute;/*绝对定位*/width: 610px;height: 300px;overflow: hidden;/*溢出隐藏*/}
+
+.banner > ul > li.active {z-index: 2;top: 37px;right: 0;left: 0;width: 960px;height: 460px;margin: auto;border: 1px solid #fff;}
+
+.banner > ul > li.left {z-index: 1;top: 0;bottom: 0;left: 0;margin: auto;}
+
+.banner > ul > li.right {z-index: 1;top: 0;right: 0;bottom: 0;margin: auto;}
+
+.banner > ul > li > img {position: absolute;left: -30%;height: 100%;}
+
+.main {left: 140px;width: 1200px;height: 473px;margin: 100px auto 0px;}
+
+.main h1 {font-size: 30px;font-weight: lighter;margin-bottom: 23px;}
+
+.main h1 > samp {font-size: 30px;color: #7c7c7c;}
+
+.main > aside {float: left;width: 450px;}
+
+.main > aside > dl {position: relative;/*绝对定位他的父级必须是相对定位*/display: block;/*块级元素*/height: 74px;margin-bottom: 17px;}
+
+.main > aside > dl > dt {position: absolute;top: -1px;left: 92px;font-size: 16px;font-weight: bold;line-height: 16px;text-decoration: underline;/*下划线样式*/}
+
+.main > aside > dl > dd:first-of-type {/*:first-of-type:选择属于其父元素的首个元素*/position: absolute;left: 0;}
+
+.main > aside > dl > dd:last-of-type {/*:last-of-type:选择属于其父元素的最后元素*/position: absolute;top: 20px;left: 90px;}
+
+.main > article {margin-left: 30px;float: left;width: 720px;overflow: hidden;}
+
+.main > article > p,
+.main > article > img {margin-bottom: 20px;}
+
+footer {background: #000;}
+
+footer > .container {width: 1200px;height: 64px;margin: 0 auto;}
+
+footer > .container > p {line-height: 64px;float: left;color: #fff}
+
+footer > .container > span {float: right;margin: 14px 40px;}
+
+footer > .container > span > img {margin-left: 4px;opacity: .7;}
+
+footer > .container > span > img:hover {opacity: 1;cursor: pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
